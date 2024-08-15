@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+        width: 350px;
+        height: 250px;
+        background-color: lightblue;
+        border-radius: 50px; /* This creates rounded corners with a radius of 15px */
+        padding: 20px;
+      
+      
+    /* background-color:gainsboro;
+    border-radius: 50%;
+    height: 200px;
+    /* background: #FFE9D0; */
+    /* padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+} */
+
+.stopwatch {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 40px 80px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startStopBtn {
+    background-color: green;
+        width: 65x;
+        height: 65px;
+        border-radius: 15px; /* This creates rounded corners with a radius of 15px */
+        padding: 30px;
+        color: white;
+     
+}
+
+#resetBtn {
+    background-color:#405D72 ;
+    width: 65x;
+    height: 65px;
+    border-radius: 15px; /* This creates rounded corners with a radius of 15px */
+    padding: 30px;
+    color: white;
+}
+
+#lapBtn {
+    background-color:#dc3545;
+    width: 65x;
+    height: 65px;
+    border-radius: 15px; /* This creates rounded corners with a radius of 15px */
+    padding: 30px;
+    color: white;
+}
+
+#display{
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
